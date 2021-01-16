@@ -1,0 +1,28 @@
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.div-1 {
+    background-color: black;
+    color: aquamarine;
+    position: absolute;
+    top: 40%;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 30px;
+    border: 3px solid aquamarine;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.btn {
+    position: absolute;
+    top: 55%;
+    color: aquamarine;
+    background-color: black;
+    border: 3px solid aquamarine;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
