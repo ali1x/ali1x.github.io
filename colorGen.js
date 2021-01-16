@@ -1,4 +1,5 @@
-let charList = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F']
+const charList = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F']
+const generateBtn = document.querySelector('#gene')
 
 function generate() {
     let colorGenerated = ''
@@ -8,3 +9,7 @@ function generate() {
     document.getElementById('output').innerHTML = `Background Color: #${colorGenerated}`
     document.body.style.backgroundColor = `#${colorGenerated}`
 }
+
+generateBtn.addEventListener('click', () => {
+    generate()
+})

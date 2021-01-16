@@ -26,3 +26,12 @@
     font-weight: 600;
     font-family: 'Courier New', Courier, monospace;
 }
+
+.btn:hover {
+    transform: scale(1.1, 1.1);
+    transition-duration: 300ms;
+}
+
+.btn:focus {
+    outline-width: 0;
+}
