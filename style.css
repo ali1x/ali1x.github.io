@@ -40,14 +40,3 @@
     position: absolute;
     top: 25%;
 }
-
-#hex-search {
-    width: 175px;
-    height: 50px;
-    font-size: 30px;
-    font-family: 'Courier New', Courier, monospace;
-    color: aquamarine;
-    background-color: black;
-    border: 3px solid aquamarine;
-
-}
